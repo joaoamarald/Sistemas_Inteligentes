@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendizagem de Máquina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aprendizagem de Máquina</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="tipos.html">Tipos de Machine Learning</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>O que é Aprendizado de Máquina?</h2>
+            <p>Aprendizado de Máquina é uma subárea da Inteligência Artificial que permite que sistemas aprendam a partir de dados, identificando padrões e fazendo previsões sem serem explicitamente programados para isso.</p>
+        </section>
+
+        <section class="card">
+            <h2>Como Funciona?</h2>
+            <p>Os algoritmos de aprendizado de máquina utilizam dados para ajustar modelos matemáticos que podem fazer previsões ou tomar decisões. O processo envolve treinamento, validação e teste.</p>
+        </section>
+
+        <section class="card">
+            <h2>Demonstração Interativa</h2>
+            <p>Experimente adicionar pontos para ver como uma regressão linear é ajustada!</p>
+            <canvas id="regressionChart" width="400" height="200"></canvas>
+            <button id="clearData">Limpar Pontos</button>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Site educativo sobre Aprendizado de Máquina</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

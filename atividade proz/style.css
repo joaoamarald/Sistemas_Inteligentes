@@ -1,0 +1,83 @@
+:root {
+    --primary: #2c3e50;
+    --secondary: #3498db;
+    --accent: #e74c3c;
+    --light: #ecf0f1;
+    --dark: #2c3e50;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+header {
+    background: var(--primary);
+    color: var(--light);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     text-align: center;
+}
+
+footer {
+    background: var(--primary);
+    color: var(--light);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* ======== MENU ======== */
+.menu {
+    list-style: none;
+    padding: 10px 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 6px;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;               
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.2); 
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: var(--secondary);
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* ======== FOTO GRUPO ======== */
+.foto-grupo {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
